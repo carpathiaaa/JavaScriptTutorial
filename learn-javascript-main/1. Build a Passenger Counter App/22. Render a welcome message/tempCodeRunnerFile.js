@@ -3,6 +3,6 @@ let welcomeEl = document.getElementById("welcome-el")
 // Create two variables (name & greeting) that contains your name
 // and the greeting we want to render on the page
 let name = "Charles"
-let greeting = "Welcome back "
+let greeting = "Welcome back"
 // Render the welcome message using welcomeEl.innerText
 welcomeEl.innerText = greeting + name
