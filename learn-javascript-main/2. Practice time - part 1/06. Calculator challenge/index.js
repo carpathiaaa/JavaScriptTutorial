@@ -7,6 +7,29 @@ document.getElementById("num2-el").textContent = num2
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
 // Render the result of the calculation in the paragraph with id="sum-el"
+function add()
+{
+    document.getElementById("sum-el").textContent = ""
+    document.getElementById("sum-el").textContent += "Sum: " + (num1 + num2)
+}
+
+function subtract()
+{
+    document.getElementById("sum-el").textContent = ""
+    document.getElementById("sum-el").textContent += "Difference: " + (num1 - num2)
+}
+
+function divide()
+{
+    document.getElementById("sum-el").textContent = ""
+   document.getElementById("sum-el").textContent += "Quotient: " + (num1 / num2)
+}
+
+function multiply()
+{
+    document.getElementById("sum-el").textContent = ""
+    document.getElementById("sum-el").textContent += "Product: " + (num1 * num2)
+}
 
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
